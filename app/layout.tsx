@@ -84,7 +84,7 @@ export default function RootLayout({
                 <div>
                   מייל:{" "}
                   <a
-                    href="mailto:ruaya994@gmail.com"
+                    href="mailto:ruaya94@gmail.com"
                     className="text-green-400 underline hover:text-green-300 ml-1"
                   >
                     ruaya94@gmail.com
