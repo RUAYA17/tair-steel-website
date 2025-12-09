@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tairsteel.co.il/sitemap.xml
