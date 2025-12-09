@@ -83,7 +83,7 @@ TAIR STEEL ידועה באמינותה, ברמת הגימור הגבוהה וב�
     // יצירת קשר
     contactTitle: "יצירת קשר",
     contactPhone: "טלפון: 052-848-7823",
-    contactArea: "אזור עבודה: צפון הארץ • מיקום: טורעאן • אתר: tairsteel.co.il",
+    contactArea: "אזור עבודה: צפון הארץ • מיקום: טורעאן • אתר: https://tair-steel-website.vercel.app",
     contactIntro1:
       "נשמח לשמוע על הפרויקט שלכם – מדרגות, שער, פרגולה, מחסן או כל עבודת מתכת אחרת.",
     contactIntro2:
