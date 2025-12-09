@@ -49,13 +49,13 @@ export default function RootLayout({
     <html lang="he">
       <body dir="rtl" className="text-slate-50">
         <div className="min-h-screen flex flex-col bg-black/40">
-          {/* כפתור וואטסאפ צף */}
+          {/* כפתור וואטסאפ צף למסגרייה */}
           <a
             href="https://wa.me/972528487823"
             target="_blank"
             rel="noopener noreferrer"
             className="fixed bottom-4 left-4 md:bottom-6 md:left-6 w-12 h-12 rounded-full bg-green-500 text-white shadow-lg flex items-center justify-center text-2xl hover:bg-green-600"
-            aria-label="שליחת הודעה בוואטסאפ"
+            aria-label="שליחת הודעה בוואטסאפ למסגריית תאיר דחלה"
           >
             💬
           </a>
@@ -64,17 +64,62 @@ export default function RootLayout({
           <div className="flex-1">{children}</div>
 
           {/* FOOTER */}
-          <footer className="border-t bg-black/70 text-xs md:text-sm text-slate-200">
-            <div className="max-w-5xl mx-auto px-4 py-3 flex flex-col md:flex-row items-center justify-between gap-2">
-              <div className="text-right">
-                <div className="font-semibold">
+          <footer className="border-t bg-black/80 text-xs md:text-sm text-slate-200">
+            {/* שורה עליונה: עסק + בניית אתרים */}
+            <div className="max-w-5xl mx-auto px-4 py-4 flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+              {/* פרטי המסגרייה */}
+              <div className="text-right space-y-1">
+                <div className="font-semibold text-sm md:text-base">
                   מסגריית תאיר דחלה · Tair Dahla
                 </div>
-                <div>טלפון: 052-848-7823 · אזור עבודה: צפון הארץ והסביבה</div>
+                <div>טלפון: 052-848-7823</div>
+                <div>אזור עבודה: צפון הארץ והסביבה</div>
               </div>
 
-              <div className="text-right">
-                <div>© {new Date().getFullYear()} כל הזכויות שמורות.</div>
+              {/* פרטי יצירת קשר איתך לבניית אתר */}
+              <div className="text-right space-y-1">
+                <div className="font-semibold text-sm md:text-base">
+                  רוצים אתר מקצועי כמו זה לעסק שלכם? פנו אליי 👇
+                </div>
+                <div>
+                  מייל:{" "}
+                  <a
+                    href="mailto:ruaya994@gmail.com"
+                    className="text-green-400 underline hover:text-green-300 ml-1"
+                  >
+                    ruaya994@gmail.com
+                  </a>
+                </div>
+                <div>
+                  וואטסאפ:{" "}
+                  <a
+                    href="https://wa.me/972528091639"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-400 underline hover:text-green-300 ml-1"
+                  >
+                    052-809-1639
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* שורה תחתונה: זכויות + קרדיט */}
+            <div className="border-t border-slate-800">
+              <div className="max-w-5xl mx-auto px-4 py-2 flex flex-col md:flex-row items-center justify-between gap-2">
+                <span>
+                  © {new Date().getFullYear()} מסגריית תאיר דחלה – כל
+                  הזכויות שמורות.
+                </span>
+                <span className="text-[11px] md:text-xs text-slate-400">
+                  Website design & development:{" "}
+                  <a
+                    href="mailto:ruaya94@gmail.com"
+                    className="text-green-400 underline hover:text-green-300"
+                  >
+                    Ruaya Dahla
+                  </a>
+                </span>
               </div>
             </div>
           </footer>
